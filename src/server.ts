@@ -1,3 +1,4 @@
+import './utils/module-alias';
 import 'reflect-metadata';
 
 import express from 'express';
