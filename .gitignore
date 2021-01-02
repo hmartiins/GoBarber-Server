@@ -1,6 +1,19 @@
 # Created by https://www.toptal.com/developers/gitignore/api/node
 # Edit at https://www.toptal.com/developers/gitignore?templates=node
 
+# Added after
+# Always remember to add the whole .vscode folder at the gitignore
+# otherwise, it will hunt all your projects
+# and being useless for any other developer who clones it
+
+.vscode
+
+# at your terminal use the following command
+# git rm -rf .vscode
+# it'll remove the folder from the git cache, but not from your project folder
+# use it because since you forgot to add it to the git ignore it'll not be ignored by just
+# adding to the .gitignore file, but you have to remove from the git cache
+
 ### Node ###
 # Logs
 logs
